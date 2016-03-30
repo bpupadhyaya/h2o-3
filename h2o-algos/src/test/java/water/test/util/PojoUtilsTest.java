@@ -1,4 +1,4 @@
-package water.util;
+package water.test.util;
 
 import hex.kmeans.KMeansModel;
 import hex.tree.gbm.GBMModel;
