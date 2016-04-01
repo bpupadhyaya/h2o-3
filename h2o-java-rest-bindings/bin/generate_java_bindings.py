@@ -397,7 +397,7 @@ retrofitProxies = generate_retrofit_proxies(endpoints_meta, all_schemas_map)
 # TODO: makedirs only once!
 
 # Write them out:
-for entity, proxy in retrofitProxies.iteritems():
+for entity, proxy in retrofitProxies.items():
     save_full = args.dest + os.sep + 'water/bindings/proxies/retrofit/' + entity + '.java'
     save_dir = os.path.dirname(save_full)
 
